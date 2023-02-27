@@ -1,0 +1,21 @@
+
+:root {
+--padding-medium: 30px;
+--padding-small: 15px;
+}
+
+#state-picker {
+    margin-bottom: var(--padding-medium);
+}
+
+.recall {
+    border: 1px solid #cccccc;
+    padding: var(--padding-small);
+    margin-bottom: var(--padding-medium);
+    min-height:  calc(var(--padding-medium) * 3);
+}
+
+#map {
+width: 960px;
+height: 500px;
+}
