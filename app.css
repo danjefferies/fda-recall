@@ -1,4 +1,3 @@
-
 :root {
 --padding-medium: 30px;
 --padding-small: 15px;
@@ -6,16 +5,19 @@
 
 #state-picker {
     margin-bottom: var(--padding-medium);
+    border: 1.5px solid #007cba;
 }
 
 .recall {
-    border: 1px solid #cccccc;
+    border: 3px solid #007cba;
     padding: var(--padding-small);
     margin-bottom: var(--padding-medium);
     min-height:  calc(var(--padding-medium) * 3);
+    color: #2E2925;
 }
 
 #map {
 width: 960px;
 height: 500px;
+margin: auto;
 }
