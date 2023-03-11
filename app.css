@@ -14,6 +14,11 @@
     margin-bottom: var(--padding-medium);
     min-height:  calc(var(--padding-medium) * 3);
     color: #2E2925;
+    display: flex;
+}
+
+.recall p {
+    font-size: 12px;
 }
 
 #map {

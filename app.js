@@ -1,9 +1,10 @@
 // good to keep the shared common base URL of all the API endpoints in one constant variable
 const BASE_URL = "https://api.fda.gov/food/enforcement.json?search=";
-const LIMIT_URL = "&limit=2";
-const storedData = {
-    "postal-codes" : [],
-};
+const LIMIT_URL = "&sort=report_date:desc&limit=1";
+// const storedData = {
+//     "postal-codes" : [],
+//     "recall-dates" : []
+// };
 
 // console.log(BASE_URL+`state:FL`+LIMIT_URL);
 
@@ -12,10 +13,11 @@ const storedData = {
 function updateRecallList(recall) {
     
     // iterating through to store variables
-    for (r of recall){
-        storedData["postal-codes"].push(r.postal_code.slice(0,5));
+    // for (r of recall){
+    //     storedData["postal-codes"].push(r.postal_code.slice(0,5));
+    //     // storedData["recall-dates"].push(r.recall_initiation_date.replace(/(\d{4})(\d{2})(\d{2})/, '$1/$2/$3'));
     
-    }
+    // }
     // console.log(storedData)
 
   d3.select("#recall") // pull out the existing DOM row
@@ -32,13 +34,15 @@ function updateRecallList(recall) {
               .append("h3")
                 .text((d) => d.product_description)
               .append("p")
-                .text((d) => d.recall_initiation_date)
+                .text(function(d) {return "Recall date: " + d.recall_initiation_date.replace(/(\d{4})(\d{2})(\d{2})/, '$1/$2/$3')})
               .append("p")
-                .text((d) => d.reason_for_recall)
+                .text(function(d) { return "Status: " + d.status})
+              .append("p")
+                .text(function(d) { return "Reason: " + d.reason_for_recall.charAt(0).toUpperCase() + d.reason_for_recall.slice(1)})
               .append("div")
                 .attr("class", "map")
         // update => update
-        //     .transition().duration(500)
+        //     .transition().duration(1000)
         //     .style("opacity", "0")
         //     .remove(),
     	// exit => exit
@@ -52,9 +56,9 @@ function updateRecallList(recall) {
 // Change the results based on the selected state
 function handleStateChange() {
   // grab the selected state
-  const selectedState = d3.select("#state-picker").property("value");
+  var selectedState = d3.select("#state-picker").property("value");
   // request the list of recalls from that state
-  const url = BASE_URL + "state:" + selectedState + "&sort=report_date:desc" + LIMIT_URL;
+  var url = BASE_URL + "state:" + selectedState + LIMIT_URL;
   showSpinner(); // user feedback
   fetch(url) // fire off the promise-based async request for data
     .then((responseSession) => responseSession.json()) // the HTTP session has started
@@ -62,26 +66,30 @@ function handleStateChange() {
     .finally(() => hideSpinner())  // hide the user feedback
     .catch(error => showError(error.message));  // and show any errors to user
 
+  var stateToCenter = {
+  "AL" : [32, -100],
+  "AK" : [40, -100],
+  "AZ" : [34, -110]
+  }
 
-    // This is for the leaflet map
-// var markers = [];
-//     for (var i = 0; i < data.length; i++) {
-//         var item = data[i]
 
-//     }
+let currentCenter = stateToCenter[selectedState]
+// console.log(currentCenter)
 
 // LEAFLET MAP FOR EACH STATE
-var map = new L.Map("map", {center: [37.8, -96.9], zoom: 4})
+// var map = new L.Map("map", {center: [37.8, -96.9], zoom: 6})
+var map = new L.Map("map", {center: currentCenter, zoom: 6})
 .addLayer(new L.TileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"));
 
 var svg = d3.select(map.getPanes().overlayPane).append("svg"),
 g = svg.append("g").attr("class", "leaflet-zoom-hide");
 
-function projectPoint(x, y) {
-    var point = map.latLngToLayerPoint(new L.LatLng(y, x));
-    this.stream.point(point.x, point.y);
-  }
+// This is for the leaflet map
+// var markers = [];
+//     for (var i = 0; i < data.length; i++) {
+//         var item = data[i]
 
+//     }
 }
 
 // helper function to show the spinner
