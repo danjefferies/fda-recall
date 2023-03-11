@@ -36,7 +36,8 @@ body {
 }
 
 .click{
-    display: block; 
+    /* display: block;  */
+    display: flex;
     margin: center;
     width: 25vw;
     border-radius: 30%;
