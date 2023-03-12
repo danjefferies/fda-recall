@@ -1,12 +1,12 @@
 // good to keep the shared common base URL of all the API endpoints in one constant variable
 const BASE_URL = "https://api.fda.gov/food/enforcement.json?search=state:";
 const LIMIT_URL = "&sort=report_date:desc&limit=5";
-const storedData = {
-    "postal-codes" : [],
-    "street-parse" : [],
-    "state" : []
-    // "address" : []
-};
+// const storedData = {
+//     "postal-codes" : [],
+//     "street-parse" : [],
+//     "state" : []
+//     // "address" : []
+// };
 
 // LOAD AND CREATE POINTS FOR THE MAP
 var data;
@@ -23,19 +23,28 @@ function addMarkers() {
     }
 
     let title = d.product_description;
+    let status = d.status;
+
+    var popup = L.popup()
+      .setContent(status + ": " + title)
 
     var marker = L.circleMarker([+d.lat, +d.lon], {
       color
       })
     marker.addTo(map)
-    .bindPopup(title)
-    .openPopup;
+      .bindPopup(popup);
   })
 }
 
+
+
 // INITIALIZE THE MAP
 var map = new L.Map("map", {center: [37.8, -96.9], zoom: 4})
-.addLayer(new L.TileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"))
+// .addLayer(new L.TileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"))
+  .addLayer(new L.TileLayer("https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png", {
+    maxZoom: 20,
+    attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+  }))
 
 var svg = d3.select(map.getPanes().overlayPane).append("svg"),
 g = svg.append("g").attr("class", "leaflet-zoom-hide");
@@ -53,25 +62,29 @@ d3.csv("./map.csv")
 function updateRecallList(recall) {
     
     // iterating through to store variables
-    for (r of recall){
-        storedData["postal-codes"].push(r.postal_code.slice(0,5));
-        // storedData["address"].push(r.address_1 + "+" + r.city + "," + r.state)
-        storedData["street-parse"].push(r.address_1.split(' ').map(s => s+"+")); 
-        storedData["state"].push(r.state);
-    }
+    // for (r of recall){
+    //     storedData["postal-codes"].push(r.postal_code.slice(0,5));
+    //     // storedData["address"].push(r.address_1 + "+" + r.city + "," + r.state)
+    //     storedData["street-parse"].push(r.address_1.split(' ').map(s => s+"+")); 
+    //     storedData["state"].push(r.state);
+    // }
 
-  d3.select("#recall") // pull out the existing DOM row
-    .html("") // just empty out all the current items showing
+  d3.select("#recall")
+    .html("") // empty out all the current items showing
     .selectAll("div.col-md-4") // grab any existing column children
-    .data(recall) // grab the list of recalls
-    .join(  // work with the two lists together
-      (enter) =>
-        enter
+    .data(recall)
+    .join((enter) => enter
           .append("div")
             .attr("class", "col-md-4")
-            .append("div")
-              .attr("class", "recall")
-              .append("h3")
+          .append("div")
+            .attr("class", function(d){
+              if (d.status === "Terminated") {
+                return "faded"
+              } else {
+                return "recall"
+              }
+            })
+              .append("h4")
                 .text((d) => d.product_description)
               .append("p")
                 .text(function(d) {return "Recall date: " + d.recall_initiation_date.replace(/(\d{4})(\d{2})(\d{2})/, '$1/$2/$3')})
@@ -130,7 +143,13 @@ function handleStateChange() {
   }
 
   // request the list of recalls from that state
-  var url = BASE_URL + selectedState + LIMIT_URL;
+
+  if (selectedState === "OR"){
+    var url = "https://api.fda.gov/food/enforcement.json?search=state:%22OR%22&sort=report_date:desc&limit=5"
+  } else {
+    var url = BASE_URL + selectedState + LIMIT_URL;
+  }
+
   showSpinner(); // user feedback
   fetch(url) // fire off the promise-based async request for data
     .then((responseSession) => responseSession.json()) // the HTTP session has started

@@ -3,8 +3,16 @@ body {
     padding: 8;
     position: relative;
     color: #2E2925;
-    font-family: "Roboto Condensed",Helvetica,Arial,sans-serif; /* FDA font*/
+    font-family: "Roboto Condensed",Helvetica,Arial,sans-serif; /* FDA head font */
     background-color: #F2F3F4;
+}
+
+h3 {
+    font-family: "Georgia, Times"; /* FDA body font */
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 5;
+    color:  #2E2925;
 }
 
 .fda-masthead {

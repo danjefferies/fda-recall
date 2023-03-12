@@ -1,6 +1,254 @@
 state,product_description,address_1,city,status,lat,lon
-AL,Irvington Seafood Crabmeat,11125 Beverly Rd,Irvington,Completed,30.4596,-88.249194
-AL,Port City Soups  Tex-Mex Chili,10 Springdale Blvd,Mobile,Terminated,30.68766194,-88.1238764
-AL,Port City Soups  Alkaline Vegetable Soup,10 Springdale Blvd,Mobile,Terminated,30.68766194,-88.1238764
-AL,Port City Soups  Creole Gumbo,10 Springdale Blvd,Mobile,Terminated,30.68766194,-88.1238764
-AL,Port City Soups  Baton Rouge Beans,10 Springdale Blvd,Mobile,Terminated,30.68766194,-88.1238764
+AL,Irvington Seafood Crabmeat,11125 Beverly Rd,Irvington,Completed,30.459296,-88.250508
+AL,Port City Soups  Tex-Mex Chili,10 Springdale Blvd,Mobile,Terminated,30.687526,-88.123909
+AL,Port City Soups  Alkaline Vegetable Soup,10 Springdale Blvd,Mobile,Terminated,30.687526,-88.123909
+AL,Port City Soups  Creole Gumbo,10 Springdale Blvd,Mobile,Terminated,30.687526,-88.123909
+AL,Port City Soups  Baton Rouge Beans,10 Springdale Blvd,Mobile,Terminated,30.687526,-88.123909
+AK,Charlies Produce peeled onions,9401 King St,Anchorage,Terminated,61.135165,-149.878668
+AK,Charlies Produce peeled onions,9401 King St,Anchorage,Terminated,61.135165,-149.878668
+AK,Charlies Produce peeled onions,9401 King St,Anchorage,Terminated,61.135165,-149.878668
+AK,Smoked Silver Salmon,3915 Machen Rd.,Wasilla,Terminated,61.585074,-149.54898
+AK,Canoodles shelf stable sockeye salmon pieces,17515 Sterling Hwy,Ninilchik,Terminated,60.017345,-151.709602
+AZ,Thai Noodle Salad Kit,859 S 86th Ave,Tolleson,Terminated,33.43994,-112.243777
+AZ,Woody's Smokehouse brand Yogurt Raisins,4955 E McKellips Rd,Mesa,Terminated,33.451584,-111.723081
+AZ,Good & Gather Dried Sweetened Strawberries,4502 W Monterosa St,Phoenix,Completed,33.496999,-112.157624
+AZ,"""Mountain Trail Mix, 44 oz. ",4502 W Monterosa St,Phoenix,Ongoing,33.496999,-112.157624
+AZ,Salted Cashews Halves & Pieces,4502 W Monterosa St,Phoenix,Ongoing,33.496999,-112.157624
+AR,Favorite Day Lavender Shortbread Cookie Bites,9100 Frazier Pike,Little Rock,Ongoing,34.704204,-92.175858
+AR,SKIPPY Creamy Peanut Butter Blended with Plant Protein,8201 Frazier Pike,Little Rock,Terminated,34.708248,-92.184569
+AR,SKIPPY Reduced Fat Chunky Peanut Butter,8201 Frazier Pike,Little Rock,Terminated,34.708248,-92.184569
+AR,SKIPPY Reduced Fat Creamy Peanut Butter,8201 Frazier Pike,Little Rock,Terminated,34.708248,-92.184569
+AR,Favorite Day Carrot cake soft bake cookies,9100 Frazier Pike,Little Rock,Ongoing,34.704204,-92.175858
+CA,KANRO Pure gummy,16400 Trojan Way,La Mirada,Ongoing,33.882859,-118.014869
+CA,TOHATO Nagewa Snack Seaweed Flavor,16400 Trojan Way,La Mirada,Ongoing,33.882859,-118.014869
+CA,ITOSEIKA Chocolate chip cookies,16400 Trojan Way,La Mirada,Ongoing,33.882859,-118.014869
+CA,Caramel Corn,16400 Trojan Way,La Mirada,Ongoing,33.882859,-118.014869
+CA,Katoseika Chocolat Orange Candy,16400 Trojan Way,La Mirada,Ongoing,33.882859,-118.014869
+CO,Rao's Chicken & Gnocchi Soup,168 Centennial Pkwy Ste 200,Louisville,Ongoing,39.970317,-105.166953
+CO,Umami Everyday Savory Spice,2525 Arapahoe Ave,Boulder,Ongoing,40.016503,-105.262192
+CO,Everything But The Sushi & Dumplings,2525 Arapahoe Ave,Boulder,Ongoing,40.016503,-105.262192
+CO,Umami Everyday Sauce,2525 Arapahoe Ave,Boulder,Ongoing,40.016503,-105.262192
+CO,Hammond's Salted Caramel Cookies,5735 Washington St,Denver,Ongoing,39.799652,-104.98016
+CT,Full Circle Market Organic Oat & Honey Granola,13 South Floral Siding,East Hartford,Ongoing,41.80039,-72.58846
+CT,Aurora Natural brand; Organic Cranberry Frontier Mix,205 Edison Rd,Orange,Completed,41.261368,-72.995498
+CT,Spicy tuna roll,100 Bridge St,East Windsor,Terminated,41.929654,-72.616674
+CT,Pink lady and salmon avocado roll,100 Bridge St,East Windsor,Terminated,41.929654,-72.616674
+CT,Spicy salmon roll,100 Bridge St,East Windsor,Terminated,41.929654,-72.616674
+DE,Kingdom Honey Royal Honey,2 Burleigh Ct,Newark,Ongoing,39.64503,-75.716997
+DE,Natural by Nature 1 % Milk,316 Markus Ct,Newark,Terminated,39.659266,-75.775991
+DE,Fairway Market 1 % Milk,316 Markus Ct,Newark,Terminated,39.659266,-75.775991
+DE,Common Market 1 % Milk,316 Markus Ct,Newark,Terminated,39.659266,-75.775991
+DE,Ross Chocolates,9 Whistler Ct,Wilmington,Terminated,39.744968,-75.700391
+DC,Everything Swapples,1369 New York Ave Ne,Washington,Terminated,38.915299,-76.985285
+DC,Nutrin/Amendobras brand Roasted Peanut Splits,1627 Connecticut Ave NW Suite 3 Rm 2,Washington,Terminated,38.912033,-77.044432
+DC,YES Mocha Gelato,5766 2nd St NE,Washington,Terminated,38.958697,-77.004563
+DC,YES Green Tea Gelato,5766 2nd St NE,Washington,Terminated,38.958697,-77.004563
+DC,YES Raspberry Lemonade Sorbetto,5766 2nd St NE,Washington,Terminated,38.958697,-77.004563
+FL,Fullei Fresh brand Alfalfa Sprouts,400 Ne 67th St,Miami,Terminated,25.835416,-80.188512
+FL,FC Parsley Curly Chopped Fine,2300 Nw 19th St,Pompano Beach,Completed,26.254105,-80.157889
+FL,Kalera and Butter lettuce,7455 Emerald Dunes Dr,Orlando,Terminated,28.45999,-81.280853
+FL,Kalera and Butter lettuce,7455 Emerald Dunes Dr,Orlando,Terminated,28.45999,-81.280853
+FL,Living Hydroponic Baby Romaine Lettuce,7455 Emerald Dunes Dr,Orlando,Terminated,28.45999,-81.280853
+GA,Pepper Collection 8 Tube Gift Set,825 Franklin Ct Se Ste B,Marietta,Ongoing,33.928267,-84.496826
+GA,Kerry,5 Douglas St Se,Rome,Ongoing,34.204506,-85.17683
+GA,Bella Cucina Artful Food Porcini & Parmesan Pesto,1870 Murphy Ave Sw,Atlanta,Ongoing,33.703582,-84.426903
+GA,Bella Cucina Artful Food Sun-Dried Tomato Pesto,1870 Murphy Ave Sw,Atlanta,Ongoing,33.703582,-84.426903
+GA,BRIE EN CROUTE WITH RASPBERRY,5423 N Lake Dr,Lake City,Ongoing,33.541779,-84.349924
+HI,Garlic Shrimp Poke and Cooked Shrimp,1535 Colburn St,Honolulu,Terminated,21.325056,-157.878966
+HI,Lalamilo Farms Tropical Dreams Hawaiian Ice Cream - Strawberry Cheesecake,66-1250 Lalamilo Farm Rd,Kamuela,Terminated,20.011798,-155.683036
+HI,Samurai Brand Furikake Popcorn,738 Umi St,Honolulu,Terminated,21.334046,-157.882561
+HI,Sweet Basil Farm Hawaii,86-430 Puhawai Rd,Waianae,Terminated,21.441866,-158.155523
+HI,Regal's Fundraising Cookies,3040 Ualena St,Honolulu,Terminated,21.334117,-157.909044
+ID,Chicken Salad Sandwich,250 E Park Center Blvd,Boise,Completed,43.698248,-116.403129
+ID,Ready Meals Chicken Salad Quad,250 E Park Center Blvd,Boise,Completed,43.698248,-116.403129
+ID,Ready Meals Snow Crab Legs Imitation Surimi SCE,250 E Park Center Blvd,Boise,Terminated,43.698248,-116.403129
+ID,Ready Meals Shrimp Cooked with Cocktail Sauce,250 E Park Center Blvd,Boise,Terminated,43.698248,-116.403129
+ID,Ready Meals Crab & Shrimp w/Ccktl,250 E Park Center Blvd,Boise,Terminated,43.698248,-116.403129
+IL,D'allesandro  Hickory Smoked Almonds,3751 Sunset Ave,Waukegan,Ongoing,42.391292,-87.892295
+IL,XO Marshmallow Limited Edition: Banana Puddin' OMG (Ooey Marshmallow Goodness),3531 Howard St,Skokie,Terminated,42.018919,-87.716825
+IL,ARASHAN brand mixed dried fruit,561 W Golf Rd,Arlington Heights,Ongoing,42.051324,-87.989883
+IL,Diana s Milk Chocolate Banana Babies,2733 W Harrison St,Chicago,Ongoing,41.873546,-87.695327
+IL,Tuscan Garden Restaurant Style Italian Dressing,2021 Spring Rd Ste 600,Oak Brook,Terminated,41.850385,-87.948086
+IN,Breads: Garlic product,5867 Churchman Ave,Indianapolis,Terminated,39.705799,-86.062354
+IN,Breads: Pretzel product,5867 Churchman Ave,Indianapolis,Terminated,39.705799,-86.062354
+IN,Breads: Multigrain product,5867 Churchman Ave,Indianapolis,Terminated,39.705799,-86.062354
+IN,Breads: English Muffin product,5867 Churchman Ave,Indianapolis,Terminated,39.705799,-86.062354
+IN,Breads: Onion product,5867 Churchman Ave,Indianapolis,Terminated,39.705799,-86.062354
+IA,Big Sky Chocolate Chunk Peanut Butter Chip Granola,7021 Douglas Ave,Urbandale,Terminated,41.629564,-93.713057
+IA,Big Sky Chocolate Chunk Granola,7021 Douglas Ave,Urbandale,Terminated,41.629564,-93.713057
+IA,Gourmet Old-Fashioned Caramel Holiday Popcorn,401 N 13th St,Sac City,Ongoing,42.426196,-94.999401
+IA,HyVee Oven Baked Beans,4150 Se Delaware Ave,Ankeny,Terminated,41.692834,-93.583126
+IA,Thick-It Original Food & Beverage Thickener,2905 N Highway 61,Muscatine,Terminated,41.455108,-91.028862
+KS,POTATO RUSSET QUARTERED,1251 Argentine Blvd,Kansas City,Terminated,39.080495,-94.64799
+KS,POTATO YUKON W/SKIN,1251 Argentine Blvd,Kansas City,Terminated,39.080495,-94.64799
+KS,POTATO REDDICE W/SKIN,1251 Argentine Blvd,Kansas City,Terminated,39.080495,-94.64799
+KS,POTATO RUSSET SLCD W/SKIN,1251 Argentine Blvd,Kansas City,Terminated,39.080495,-94.64799
+KS,POTATO YUKON 'A' PLD,1251 Argentine Blvd,Kansas City,Terminated,39.080495,-94.64799
+KY,Taylor Farms - Thai Noodle Salad Kit,3776 Lake Park Dr,Covington,Terminated,39.05906,-84.542748
+KY,Carbquik Mug Cakes: Cinnamon Spice,2902 Blankenbaker Rd,Louisville,Terminated,38.202517,-85.54268
+KY,Carbquik Complete Biscuit and Baking Mix,2902 Blankenbaker Rd,Louisville,Terminated,38.202517,-85.54268
+KY,Carbquik Mug Cake: Double Chocolate Chunk,2902 Blankenbaker Rd,Louisville,Terminated,38.202517,-85.54268
+KY,Grab & Go Bistro Pimento Cheese Sandwich,115 E University Dr,Somerset,Terminated,37.106359,-84.610097
+LA,Targil's St. Amand's Chicken Breading.,229 Wartell Ave,Opelousas,Terminated,30.534161,-92.094155
+LA,Targil's Hot Tails Louisiana Crawfish House Chicken Breading,229 Wartell Ave,Opelousas,Terminated,30.534161,-92.094155
+LA,Targil's Parker's Flavor Flour,229 Wartell Ave,Opelousas,Terminated,30.534161,-92.094155
+LA,Targil's Hot Tails Louisiana Crawfish House Hush Puppy,229 Wartell Ave,Opelousas,Terminated,30.534161,-92.094155
+LA,Slap Ya Mama Louisiana Food Products: Slap Ya Mama Cajun Fish Fry,1679 W Main St,Ville Platte,Terminated,30.694464,-92.2956
+ME,frozen pizza dough,79 Emery St Ste B,Sanford,Ongoing,43.438853,-70.766774
+ME,Pizza Dough Ball and Frozen Pizza Dough,79 Emery St Ste B,Sanford,Ongoing,43.438853,-70.766774
+ME,Classic and traditional frozen pizza dough,79 Emery St Ste B,Sanford,Ongoing,43.438853,-70.766774
+ME,Frozen pizza dough,79 Emery St Ste B,Sanford,Ongoing,43.438853,-70.766774
+ME,Frozen pizza dough,79 Emery St Ste B,Sanford,Ongoing,43.438853,-70.766774
+MD,Wegmans Asian Chop Salad Kit,9055 Junction Dr,Annapolis Junction,Ongoing,39.12399,-76.801583
+MD,"Three Gold Coins, Dried Mushrooms",1200 Hampton Park Blvd Ste 200,Capitol Heights,Terminated,38.872395,-76.848953
+MD,"Three Gold Coins, Dried Mushrooms Sliced",1200 Hampton Park Blvd Ste 200,Capitol Heights,Terminated,38.872395,-76.848953
+MD,"Three Gold Coins, Dried Mushrooms Sliced",1200 Hampton Park Blvd Ste 200,Capitol Heights,Terminated,38.872395,-76.848953
+MD,"Three Gold Coins, Dried Mushrooms",1200 Hampton Park Blvd Ste 200,Capitol Heights,Terminated,38.872395,-76.848953
+MA,Gordon Choice Cranberry Orange Flavored Nut muffin batter,351 Willow St,North Andover,Ongoing,42.656192,-71.114072
+MA,Boston Baking Mini Crumb Cake,101 Sprague St,Hyde Park,Ongoing,42.234457,-71.138951
+MA,Food Club Cottage Cheese with Pineapple; Hannaford Cottage Cheese with Pineapple; Hood Cottage Cheese with Pineapple; Market Basket Cottage Cheese with Pineapple; Penn Maid Cottage Cheese with Pineapple,6 Kimball Ln,Lynnfield,Terminated,42.509544,-71.034384
+MA,Hood Fat Free Cottage Cheese with Pineapple,6 Kimball Ln,Lynnfield,Terminated,42.509544,-71.034384
+MA,Hood Cottage Cheese with Pineapple & Cherry; Penn Maid Cottage Cheese with Pineapple & Cherry,6 Kimball Ln,Lynnfield,Terminated,42.509544,-71.034384
+MI,Sanders Milk Chocolate Sea Salt Pecan Cluster,23770 Hall Rd,Clinton Township,Ongoing,42.628836,-82.866751
+MI,Sanders Dark Chocolate Sea Salt Caramels,23770 Hall Rd,Clinton Township,Ongoing,42.628836,-82.866751
+MI,Sanders Dark Chocolate Peppermint Sea Salt Caramel,23770 Hall Rd,Clinton Township,Ongoing,42.628836,-82.866751
+MI,Sanders Dark Chocolate Maple Sea Salt Caramel,23770 Hall Rd,Clinton Township,Ongoing,42.628836,-82.866751
+MI,Sanders Assorted Milk and Dark Sea Salt Caramels,23770 Hall Rd,Clinton Township,Ongoing,42.628836,-82.866751
+MN,Caribou Coffee Snack Fruit and Cheese Plate,11585 Courthouse Blvd,Inver Grove Heights,Terminated,44.781579,-93.0366
+MN,"Karlsburger Kitchens NSLP 140 Beef Gravy Mix, Gluten Free",3236 Chelsea Rd W,Monticello,Terminated,45.304471,-93.823742
+MN,"Karlsburger Kitchens NSLP 140 Turkey Gravy Mix, Gluten Free",3236 Chelsea Rd W,Monticello,Terminated,45.304471,-93.823742
+MN,Dragon Fruit Mix,6085 Claude Way,Inver Grove Heights,Terminated,44.860502,-93.039317
+MN,Roasting Vegetables. With Olive Oil and Herbs,6085 Claude Way,Inver Grove Heights,Terminated,44.860502,-93.039317
+MS,Flathau's Fine Foods Cheese Straws; Delta Bred Cheese Straws,209 W Second Ave,Petal,Terminated,31.350222,-89.26737
+MS,Tam's Homemade Biscuits,1036 Goodman Rd E,Southaven,Terminated,34.962769,-89.97089
+MS,Cotton Blues Cheesecake,907 Robinson St,Waynesboro,Terminated,31.68026,-88.645086
+MS,Southern Sisters Gourmet Cheddar Garlic Biscuits,5377 Highway 306,Coldwater,Terminated,34.69994,-89.89236
+MS,Southern Sisters Gourmet Apple Crisp mix,5377 Highway 306,Coldwater,Terminated,34.69994,-89.89236
+MO,Saint Louis Domestic Brie Wedge,4200 Papin St,Saint Louis,Terminated,38.630696,-90.256517
+MO,Qassim Mix for Coffee,344 Fee Fee Rd,Maryland Heights,Ongoing,38.713567,-90.427934
+MO,Chocolate to Die For Premium Ice Cream,1511 Brooklyn Ave,Kansas City,Terminated,39.092904,-94.555669
+MO,SOFT RIPENED CHEESE - DOUBLE CREME,8800 Ne Underground Dr,Kansas City,Terminated,39.15937,-94.47344
+MO,WIEBE DAIRY  RAW MILK CHEESE,8800 Ne Underground Dr,Kansas City,Terminated,39.15937,-94.47344
+MT,Market Day Krabbycakes,4750 Star Meadow Rd,Whitefish,Completed,48.37342,-114.679778
+MT,Mountain Meadow Herbs Brand: Candida Flush Endotoxin Cleans3,1019 Hard Rock Rd,Somers,Terminated,48.096089,-114.203961
+MT,Plant Based WayFare Butterscotch Pudding Organic Dairy Free,509 S 22nd Ave,Bozeman,Terminated,45.674074,-111.066287
+MT,Plant Based WayFare Vanilla Pudding Organic Dairy Free,509 S 22nd Ave,Bozeman,Terminated,45.674074,-111.066287
+MT,Plant Based WayFare Chocolate Pudding Organic Dairy Free,509 S 22nd Ave,Bozeman,Terminated,45.674074,-111.066287
+NE,Sun Sprouts Alfalfa Sprouts,13315 A St,Omaha,Terminated,41.224441,-96.122295
+NE,Wayfare Dairy Free Butter Salted & Whipped,1320 S 19th St,Nebraska City,Terminated,40.665382,-95.869592
+NE,"Assist and Amend Advanced Digestive Enzyme Formula, Dietary Supplement",14503 Grover St Ste 106,Omaha,Terminated,41.223765,-96.14078
+NE,Organic Yellow Popcorn,1132 9th Rd,Chapman,Terminated,41.022427,-98.131156
+NE,Marketside Peanut Butter Brownie,4651 F St,Omaha,Terminated,41.219403,-95.983431
+NV,Super Seed Everything Crackers,9480 N Virginia St,Reno,Ongoing,39.613149,-119.862375
+NV,Super Seed Classic Crackers,9480 N Virginia St,Reno,Ongoing,39.613149,-119.862375
+NV,Pure Ground Ingredients Organic Oregano Leaf Powder,2535 Business Pkwy,Minden,Ongoing,39.02398,-119.750207
+NV,Nutricrafters MCT - Instant coconut milk mixer,12 Glen Carran Cir,Sparks,Terminated,39.52865,-119.743076
+NV,Lebenswert Anfangsmilch Stage 1 Organic Infant Milk Formula,1486 Kleppe Ln,Sparks,Terminated,39.526097,-119.716768
+NH,FROZEN PREPARED FOODS,71 Stow Dr,Chesterfield,Ongoing,42.733968,-72.066014
+NH,REFRIDGERATED DIPS,71 Stow Dr,Chesterfield,Ongoing,42.733968,-72.066014
+NH,Refrigerated beverage,71 Stow Dr,Chesterfield,Ongoing,42.733968,-72.066014
+NH,Refridgerated vegatable products,71 Stow Dr,Chesterfield,Ongoing,42.733968,-72.066014
+NH,Meat and poultry products,71 Stow Dr,Chesterfield,Ongoing,42.733968,-72.066014
+NJ,Sour Patch Kids Watermelon Jelly Beans,100 Deforest Ave,East Hanover,Ongoing,40.813155,-74.363438
+NJ,Back To Nature Plant Based Snacks Fudge Mint Cookies,4 Gatehall Dr,Parsippany,Ongoing,40.846399,-74.463581
+NJ,Orefresco: Pasta Manicotti,1001 Lower Landing Rd Ste 302 Ste 9,Blackwood,Ongoing,39.818052,-75.080939
+NJ,Earth Grown Vegan Garlic & Herb Falafel,180 Lehigh Ave,Lakewood,Ongoing,40.072574,-74.174502
+NJ,Earth Grown Vegan Traditional Falafel,180 Lehigh Ave,Lakewood,Ongoing,40.072574,-74.174502
+NM,Whole raw onions - RED,230 Sunshine Rd SE,Deming,Terminated,32.13733,-107.749403
+NM,Whole raw onions - WHITE,230 Sunshine Rd SE,Deming,Terminated,32.13733,-107.749403
+NM,Whole raw onions - YELLOW,230 Sunshine Rd SE,Deming,Terminated,32.13733,-107.749403
+NM,Trader Joe's Hatch Valley Salsa,1700 Desert Surf Cir Ne,Albuquerque,Terminated,35.131273,-106.616023
+NM,Tia Rita's Spicy Southwestern Green Chile Cornbread dry mix,645 S Alameda Blvd,Las Cruces,Terminated,32.303979,-106.778613
+NY,Starbucks frappuccino Vanilla. Chilled Coffee Drink.,700 Anderson Hill Rd,Purchase,Ongoing,41.034755,-73.69335
+NY,Utopia brand Enoki Mushroom,8318 72nd Dr,Glendale,Ongoing,40.705882,-73.878733
+NY,DR SNACK brand Crystal Ginger,4715 33rd St,Long Island City,Ongoing,40.742192,-73.931808
+NY,"Wegmans bakery Tiramisu, Half Tiramisu, and Tiramisu Slices",1500 Brooks Ave,Rochester,Completed,43.133567,-77.678793
+NY,Wegmans Organic Baby Kale & Baby Spinach with Sweet Pea Leaves,1500 Brooks Ave,Rochester,Completed,43.133567,-77.678793
+NC,Select Bakery Cheerwine,607 Palmer Rd,Rockwell,Ongoing,35.561233,-80.403055
+NC,Select Bakery Old Fashion Orange Creme Cake,607 Palmer Rd,Rockwell,Ongoing,35.561233,-80.403055
+NC,Select Bakery Peanut Butter,607 Palmer Rd,Rockwell,Ongoing,35.561233,-80.403055
+NC,Select Bakery Old Fashion Pound Cake,607 Palmer Rd,Rockwell,Ongoing,35.561233,-80.403055
+NC,Select Bakery Old Fashion Vanilla Creme Cake,607 Palmer Rd,Rockwell,Ongoing,35.561233,-80.403055
+ND,Fancy Buckwheat Flour,4034 40th Ave N,Grand Forks,Ongoing,47.963955,-97.086652
+ND,Swanson Ultra: Vitamin B12 Methylcobalamin,4075 40th Ave S,Fargo,Terminated,46.819422,-96.848048
+ND,Abbys Bakery Homestyle White Bread Dough,206 4th St W,Finley,Terminated,47.511955,-97.837805
+ND,Firebird Artisan Mills Gluten Free Organic Brown Rice Flour,500 North St W,Harvey,Terminated,47.775357,-99.9383
+ND,Organic IntegriPure Cold Milled Flaxseed,4666 Amber Valley Pkwy S,Fargo,Terminated,46.841061,-96.865929
+OH,Hartzler Family Dairy Wooster,5454 Cleveland Rd,Wooster,Completed,40.865218,-81.923016
+OH,Similac 360 Total Care 2 fl oz reclose able plastic bottle,2900 Easton Square Pl,Columbus,Ongoing,40.037655,-82.915683
+OH,Similac Neosure 2 fl oz reclose able plastic bottle,2900 Easton Square Pl,Columbus,Ongoing,40.037655,-82.915683
+OH,Similac 360 Total Care Sensitive 2 fl oz reclose able plastic bottle,2900 Easton Square Pl,Columbus,Ongoing,40.037655,-82.915683
+OH,Similac 360 Total Care/Similac 360 Total Care Sensitive Discharge Kit,2900 Easton Square Pl,Columbus,Ongoing,40.037655,-82.915683
+OK,Zydot Ultimate Blend The Original Detox Drink Natural Cherry Flavor,7611 E 46th Pl,Tulsa,Ongoing,36.096874,-95.890432
+OK,Zydot Ultimate Blend The Original Detox Drink Natural Tropical Ice Flavor,7611 E 46th Pl,Tulsa,Ongoing,36.096874,-95.890432
+OK,Zydot Ultimate Blend The Original Detox Drink Natural Orange Flavor,7611 E 46th Pl,Tulsa,Ongoing,36.096874,-95.890432
+OK,HIland 1% Lowfat Chocolate Milk,302 S Porter Ave,Norman,Terminated,35.22032,-97.438571
+OK,Happy Colon MMMM Chocolate Chip Cookie,1000 W Wilshire Blvd,Oklahoma City,Terminated,35.551264,-97.529741
+OR,PILGRIMS ROASTED NUTZ,31550 Nw Commercial St,North Plains,Ongoing,45.597684,-123.001881
+OR,PILGRIMS ROASTED NUTZ,31550 Nw Commercial St,North Plains,Ongoing,45.597684,-123.001881
+OR,PILGRIMS ROASTED NUTZ,31550 Nw Commercial St,North Plains,Ongoing,45.597684,-123.001881
+OR,PILGRIMS ROASTED NUTZ,31550 Nw Commercial St,North Plains,Ongoing,45.597684,-123.001881
+OR,PILGRIMS ROASTED NUTZ,31550 Nw Commercial St,North Plains,Ongoing,45.597684,-123.001881
+PA,"PROPAL, Hass Avocados",820 N Reading Rd,Ephrata,Terminated,40.206187,-76.148324
+PA,Weis Quality Premium Ice Cream Sea Salt Caramel Ripple,1000 S 2nd St,Sunbury,Ongoing,40.847606,-76.802015
+PA,H-E-B Meal Simple Tomato Basil Soup,46 Alberigi Dr,Jessup,Ongoing,41.463203,-75.553336
+PA,Turner's Whole Milk Cottage Cheese,217 S Washington St,Titusville,Terminated,41.626396,-79.675311
+PA,White frosted animal cookies with multi-colored non-pareils,360 S Belmont St,York,Terminated,39.964066,-76.692162
+RI,"Cole's Select Curry Salmon Rice Bowl, Green Curried Salmon Over Jasmine Rice",11 Broadcommon Rd,Bristol,Ongoing,41.694013,-71.271084
+RI,Golden Flax Seed Scala Bread,2 Quality Dr,Lincoln,Ongoing,41.929277,-71.476097
+RI,"Wildtree, Leslies Chili Blend, Organic & Gluten Free",15 Wellington Rd,Lincoln,Terminated,41.924811,-71.474112
+RI,"Wildtree, Taco Seasoning, Organic & Gluten Free",15 Wellington Rd,Lincoln,Terminated,41.924811,-71.474112
+RI,Products received from the UNFI Distribution Center Champaign,313 Iron Horse Way,Providence,Terminated,41.828779,-71.431872
+SC,Carolina Ingredients Smoked Peppered Bacon Seasoning Mfr,1595 Cedar Line Dr,Rock Hill,Ongoing,34.949177,-80.953593
+SC,Carolina Ingredients Sweet Chipotle Seasoning Mfr,1595 Cedar Line Dr,Rock Hill,Ongoing,34.949177,-80.953593
+SC,Carolina Ingredients Jalapeno Seasoning Mfr,1595 Cedar Line Dr,Rock Hill,Ongoing,34.949177,-80.953593
+SC,Carolina Ingredients Mustard & Onion Seasoning Mfr,1595 Cedar Line Dr,Rock Hill,Ongoing,34.949177,-80.953593
+SC,Carolina Ingredients Avocado Lime Seasoning Mfr,1595 Cedar Line Dr,Rock Hill,Ongoing,34.949177,-80.953593
+SD,Dakota Tom's and Market Fresh branded Chicken Salad Croissant sandwiches,280 E. Main Street,Corsica,Ongoing,43.423772,-98.40695
+SD,Savory Bacon Sunflower Kernels,One Chip Road,Clark,Terminated,44.877452,-97.738836
+SD,Dakota Style Roasted & Salted Sunflower Kernels,One Chip Road,Clark,Terminated,44.877452,-97.738836
+TN,"Peanut Brittle, Cashew Brittle, Pecan Brittle, Bacon Brittle, Nashville Hot Brittle",301 Old Stone Bridge Rd,Goodlettsville,Ongoing,36.334512,-86.712546
+TN,The Tomato Head Beet Hummus,4409 Greenway Dr,Knoxville,Terminated,36.033508,-83.892651
+TN,The Tomato Head Black Bean Sriracha Hummus,4409 Greenway Dr,Knoxville,Terminated,36.033508,-83.892651
+TN,Nash Family Creamery Ranch Cheese Curd,4019 Highway 41a N,Chapel Hill,Terminated,35.648215,-86.59461
+TN,Grape,4000 Amnicola Hwy,Chattanooga,Terminated,35.093292,-85.253499
+TX,Nature's Eats Cashew Crave Mix,206 Market Ave,Boerne,Ongoing,29.816573,-98.747132
+TX,Chocolate Chunk Brownie,601 Fm 161 S,Hughes Springs,Ongoing,33.003753,-94.631839
+TX,Avery's Savory Popcorn Gourmet Popcorn All Flavors packaged in clear plastic flexible bags heat sealed,1001 Ross Ave,Dallas,Terminated,32.782605,-96.804951
+TX,Greco and Sons Dough Room Products,1390 Enclave Pkwy,Houston,Completed,29.758643,-95.619806
+TX,Greco and Sons Dough Room Products,1390 Enclave Pkwy,Houston,Completed,29.758643,-95.619806
+UT,Red Button Vintage Creamery French Silk Pie,250 W Crossroad Sq,South Salt Lake,Ongoing,40.722012,-111.898111
+UT,Gem City Fine Foods GF Flourless Chocolate Torte,3403 S 1400 W Ste C,West Valley City,Ongoing,40.697777,-111.931424
+UT,Sweetums 24% sucrose solution with preservative,747 W 4170 S,Murray,Ongoing,40.680454,-111.911314
+UT,Sweetums 24% Sucrose Solution Preservative Free,747 W 4170 S,Murray,Terminated,40.680454,-111.911314
+UT,Sweetums 24% sucrose solution preservative free,747 W 4170 S,Murray,Ongoing,40.680454,-111.911314
+VT,Kingdom Creamery of Vermont 5% Maple Soft Serve Mix,3411 Vt Rte 16,East Hardwick,Ongoing,44.534733,-72.280679
+VT,14% Base Mix Case:14% Archie Case Mix,3411 Vt Rte 16,East Hardwick,Ongoing,44.534733,-72.280679
+VT,Rococo Ice Cream 15% base mix; list Kingdom Creamery of Vermont on the product label,3411 Vt Rte 16,East Hardwick,Ongoing,44.534733,-72.280679
+VT,14% Base Mix; Kingdom Creamery of Vermont,3411 Vt Rte 16,East Hardwick,Ongoing,44.534733,-72.280679
+VT,Lake Champlain Chocolates 14% base mix,3411 Vt Rte 16,East Hardwick,Ongoing,44.534733,-72.280679
+VA,Alsultan Sweets Mixed Baklava,6133 Covered Bridge Rd,Burke,Ongoing,38.781645,-77.276638
+VA,Alsultan Sweets Betefour,6133 Covered Bridge Rd,Burke,Ongoing,38.781645,-77.276638
+VA,ACME Everything Bagel Smoked Salmon,3500 S Clark Pl,Arlington,Ongoing,38.843741,-77.052018
+VA,ACME Smoked Nova Salmon,3500 S Clark Pl,Arlington,Ongoing,38.843741,-77.052018
+VA,Favorina Advent Calendar,3500 S Clark Pl,Arlington,Ongoing,38.843741,-77.052018
+WA,Vietnamese Coffee Cheesecake Coconut Butter Biscuit Crust,2325 1/2 Nw Market St,Seattle,Ongoing,47.668497,-122.387341
+WA,Coconut Pandan Cheesecake Coconut Butter Biscuit Crust,2325 1/2 Nw Market St,Seattle,Ongoing,47.668497,-122.387341
+WA,Ube (Purple Yam) Cheesecake Coconut Butter Biscuit Crust,2325 1/2 Nw Market St,Seattle,Ongoing,47.668497,-122.387341
+WA,White Chocolate Guava Cheesecake Coconut Butter Biscuit Crust,2325 1/2 Nw Market St,Seattle,Ongoing,47.668497,-122.387341
+WA,Skinny Dipped Dark Chocolate Cocoa Almonds,5221 Ballard Ave Nw,Seattle,Ongoing,47.665804,-122.382962
+WV,"Deskins Candies, Peanut Butter Pinwheel",1808 Jefferson St,Bluefield,Ongoing,37.256757,-81.220383
+WV,"Deskins Candies, Peanut Butter Fudge",1808 Jefferson St,Bluefield,Ongoing,37.256757,-81.220383
+WV,"Deskins Candies, Peanut Butter No Bake",1808 Jefferson St,Bluefield,Ongoing,37.256757,-81.220383
+WV,"Deskins Candies, Chocolate No-Bake",1808 Jefferson St,Bluefield,Ongoing,37.256757,-81.220383
+WV,DrNatura Toxinout Kit Broad Spectrum Detoxification Program,781 Chestnut Ridge Rd,Morgantow,Terminated,39.659242,-79.957619
+WI,"El Tapatio Queso Fresco, Mexican Style Crumbling Cheese",2903 3rd St N,Monroe,Completed,42.614337,-89.623083
+WI,"Fiber Powder, Dietary Supplement, Apple Cinnamon Flavored",3017 Business Park Dr,Stevens Point,Ongoing,44.506883,-89.515475
+WI,Superior Fresh Lettuce Blend,W15532 Superior Fresh Dr,Northfield,Ongoing,44.453285,-91.094254
+WI,Superior Fresh Lettuce Blend,W15532 Superior Fresh Dr,Northfield,Ongoing,44.453285,-91.094254
+WI,Superior Fresh Organic Spring Mix Family Pack,W15532 Superior Fresh Dr,Northfield,Ongoing,44.453285,-91.094254
+WY,Honey Caramels Blue Raspberry,262 E Main St,Lovell,Terminated,44.837257,-108.38789
+WY,Truffle,262 E Main St,Lovell,Terminated,44.837257,-108.38789
+WY,Honey Caramels Caramel Apple,262 E Main St,Lovell,Terminated,44.837257,-108.38789
+WY,All Milk Classic Truffle,262 E Main St,Lovell,Terminated,44.837257,-108.38789
+WY,Cherry Classic Truffle,262 E Main St,Lovell,Terminated,44.837257,-108.38789

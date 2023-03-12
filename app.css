@@ -14,11 +14,28 @@
     margin-bottom: var(--padding-medium);
     min-height:  calc(var(--padding-medium) * 3);
     color: #2E2925;
+    line-height: 1.2;
 }
 
 .recall p {
     font-size: 12px;
 }
+
+.faded {
+    border: 3px solid white;
+    background-color: #EFEFEF;
+    opacity: 75%;
+    padding: var(--padding-small);
+    margin-bottom: var(--padding-medium);
+    min-height:  calc(var(--padding-medium) * 3);
+    color: #2E2925;
+    line-height: 1.2;
+}
+
+.faded p {
+    font-size: 12px;
+}
+
 
 #map {
     width: 960px;

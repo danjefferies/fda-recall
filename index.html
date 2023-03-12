@@ -2,8 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>FDA Recall Dashboard</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FDA Recalls Dashboard</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no" />
+    <meta
+        name="og:title"
+        content="FDA Recalls Dashboard"/>
+      <meta
+        name="og:url"
+        content="https://danjefferies.github.io/fda-recall/"/>
+      <meta
+        name="og:image"
+        content="./images/fda.jpg"/>
+      <meta name="og:type" content="website" />
+      <meta
+        name="og:description"
+        content="An interactive dashboard to locate products recently recalled by the FDA based on your state."/>
+      <meta name="og:locale" content="en_US" />
+    
+      <meta
+        name="keywords"
+        content=""/>
+      <meta
+        name="author"
+        content="Danica Jefferies and Zhaozhou (Jovi) Dai, Northeastern University"/>
 
     <!-- css files-->
     <link rel="stylesheet" type="text/css" href="app.css" />
@@ -31,26 +53,21 @@
           <div class="col-md-12">
             <h1>FDA Recalls Near You</h1>
           </div>
-          
-          <div class="col-md-13">
-          <h2>By Danica Jefferies and Zhaozhou(Jovi) Dai</h2>
-        </div>
 
         <div class="col-md-13">
-          <h2>[Something will add here] </h2>
+          <h3>The map below provides information gathered from FDA listings of recalled and potentially dangerous products. For your safety, U.S. FDA classifies each recall based on its potential to cause harm to consumers and the reason it was withdrawn.</h3>
         </div>
 
         <div class="col-md-14">
-          <h3>Click to select your state</h3>
+          <h4>Click to select your state:</h4>
+
     </header>
     
     <main>
 
-    <!-- <section id="interactive"> -->
     <div class="row">
       <div class="container">
           <div class="col-md-12">
-            <!-- <button class="btn btn-primary btn-lg" onclick="fdaRecalls.app.handleAutodetect()">Locate Me Now</button> -->
             <select id="state-picker" onchange="handleStateChange()">
                 <option value="NULL">Choose a state</option>
                 <option value="AL">Alabama</option>
@@ -125,7 +142,7 @@
     <img src="images/end.png" width=1500px> <!-- will make some change here -->
     
     <div class="col-md-13">
-    <p>A sketch project for JRNL 5500: Coding for Digital Storytelling</p>
+    <p>Created by Danica Jefferies and Zhaozhou (Jovi) Dai for JRNL 5500: Coding for Digital Storytelling</p>
     </div>
 
   </body>
