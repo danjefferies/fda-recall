@@ -6,40 +6,55 @@
 #state-picker {
     margin-bottom: var(--padding-medium);
     border: 1.5px solid #007cba;
+    margin-left: 10px;
 }
 
 .recall {
     border: 3px solid #007cba;
     padding: var(--padding-small);
+    opacity: 80%;
+    position: relative;
+    margin-left: 900px;
+    margin-top: 85px;
     margin-bottom: var(--padding-medium);
     min-height:  calc(var(--padding-medium) * 3);
-    color: #2E2925;
-    line-height: 1.2;
+    color: black;
+    line-height: 1.6;
 }
 
 .recall p {
-    font-size: 12px;
+    font-size: 16px;
+    color: #212F3D;
 }
 
 .faded {
-    border: 3px solid white;
+    border: 3px solid #7F8C8D;
     background-color: #EFEFEF;
     opacity: 75%;
     padding: var(--padding-small);
+    position: relative;
+    margin-left: 900px;
+    margin-top: 85px;
     margin-bottom: var(--padding-medium);
     min-height:  calc(var(--padding-medium) * 3);
-    color: #2E2925;
+    color: black;
     line-height: 1.2;
 }
 
 .faded p {
-    font-size: 12px;
+    font-size: 18px;
+    color: #212F3D;
 }
 
 
 #map {
-    width: 960px;
+    width: 760px;
     height: 500px;
-    margin: auto;
+    border: 3px solid #007cba;
+    border-top: 3px solid rgba(0, 124, 186, 0.8);
+    border-left: 3px solid rgba(0, 124, 186, 0.8);
+    border-right: 3px solid rgba(0, 124, 186, 0.8);
+    border-bottom: 3px solid rgba(0, 124, 186, 0.8);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
 }
-

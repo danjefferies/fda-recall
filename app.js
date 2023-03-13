@@ -15,11 +15,11 @@ function addMarkers() {
   data.forEach(function(d) {
     let color;
     if (d.status === "Completed"){
-      color = 'orange';
+      color = '#D68910';
     } else if (d.status === "Terminated") {
-      color = 'green';
+      color = '#C0392B';
     } else {
-      color = 'red';
+      color = '#138D75';
     }
 
     let title = d.product_description;
@@ -105,11 +105,11 @@ function updateRecallList(recall) {
                   })
                 .style('color', function(d){
                   if (d.status === "Completed") {
-                    return 'orange'
+                    return '#D68910'
                   } if (d.status === "Ongoing") {
-                    return 'red'
+                    return '#C0392B'
                   } else {
-                    return 'green'
+                    return '#138D75'
                   }
                 })
               .append("div")

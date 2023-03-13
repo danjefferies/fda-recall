@@ -8,11 +8,20 @@ body {
 }
 
 h3 {
-    font-family: "Georgia, Times"; /* FDA body font */
+    font-family: "Roboto Condensed",Helvetica,Arial,sans-serif; /* FDA body font */
     font-size: 1rem;
     line-height: 1.2;
     font-weight: 5;
     color:  #2E2925;
+    font-size: 20px;
+    line-height: 1.8;
+    margin: auto;
+    text-indent: 2em;
+}
+
+h4 {
+    font-family: "Roboto Condensed",Helvetica,Arial,sans-serif; /* FDA body font */
+    font-size: 20px;
 }
 
 .fda-masthead {
@@ -52,20 +61,72 @@ h3 {
     
 }
 
+.col-md-11 {
+    font-family: "Roboto Condensed",Helvetica,Arial,sans-serif; /* FDA body font */
+    margin-left: 301px;
+}
+
 .col-md-12 {
     text-align: center;
     color: #007cba; /* FDA offical color */
     font-weight: bolder;
+    font-family: "Roboto Condensed",Helvetica,Arial,sans-serif; /* FDA body font */
 }
 
 .col-md-13 {
     text-align: center;
     font-weight: bold;
     color: #2E2925; /* FDA offical color */
+    font-family: "Roboto Condensed",Helvetica,Arial,sans-serif; /* FDA body font */
 }
 
 .col-md-14 {
     text-align: center;
     font-weight: lighter;
     color: #2E2925; /* FDA offical color */
+    float: left;
+    padding: 10px;
+    font-family: "Roboto Condensed",Helvetica,Arial,sans-serif; /* FDA body font */
 }
+
+.table {
+    margin-left: 10px;
+}
+
+/* @media (max-width:550px){
+    .headline {
+        width: 95%;
+        margin-left: 10px;
+        }
+      .container {
+        width: 96%;
+        margin-left: 10px;
+        background-color: #F2F3F4;
+        }
+    }
+  
+  @media (min-width:551px){
+    .headline {
+        width: 50%;
+        margin-left: 10px;
+        }
+    .container {
+         width: 73%;
+         margin-left: 10px;
+         background-color: #F2F3F4;
+        }
+    } */
+
+    a:link {
+        color:#007cba;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color:#007cba;
+    }
+    
+    a:hover {
+        color:white;
+        background-color: #D68910;
+    }
