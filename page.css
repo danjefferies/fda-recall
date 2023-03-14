@@ -8,13 +8,13 @@ body {
 }
 
 h3 {
-    font-family: "Roboto Condensed",Helvetica,Arial,sans-serif; /* FDA body font */
+    font-family: "Georgia, Times"; /* FDA body font */
     font-size: 1rem;
     line-height: 1.2;
     font-weight: 5;
     color:  #2E2925;
     font-size: 20px;
-    line-height: 1.8;
+    line-height: 1.5;
     margin: auto;
     text-indent: 2em;
 }

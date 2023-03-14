@@ -45,7 +45,7 @@ DC,YES Mocha Gelato,5766 2nd St NE,Washington,Terminated,38.958697,-77.004563
 DC,YES Green Tea Gelato,5766 2nd St NE,Washington,Terminated,38.958697,-77.004563
 DC,YES Raspberry Lemonade Sorbetto,5766 2nd St NE,Washington,Terminated,38.958697,-77.004563
 FL,Fullei Fresh brand Alfalfa Sprouts,400 Ne 67th St,Miami,Terminated,25.835416,-80.188512
-FL,FC Parsley Curly Chopped Fine,2300 Nw 19th St,Pompano Beach,Completed,26.254105,-80.157889
+FL,FC Parsley Curly Chopped Fine,2300 Nw 19th St,Pompano Beach,Terminated,26.254105,-80.157889
 FL,Kalera and Butter lettuce,7455 Emerald Dunes Dr,Orlando,Terminated,28.45999,-81.280853
 FL,Kalera and Butter lettuce,7455 Emerald Dunes Dr,Orlando,Terminated,28.45999,-81.280853
 FL,Living Hydroponic Baby Romaine Lettuce,7455 Emerald Dunes Dr,Orlando,Terminated,28.45999,-81.280853
@@ -174,7 +174,7 @@ ND,Swanson Ultra: Vitamin B12 Methylcobalamin,4075 40th Ave S,Fargo,Terminated,4
 ND,Abbys Bakery Homestyle White Bread Dough,206 4th St W,Finley,Terminated,47.511955,-97.837805
 ND,Firebird Artisan Mills Gluten Free Organic Brown Rice Flour,500 North St W,Harvey,Terminated,47.775357,-99.9383
 ND,Organic IntegriPure Cold Milled Flaxseed,4666 Amber Valley Pkwy S,Fargo,Terminated,46.841061,-96.865929
-OH,Hartzler Family Dairy Wooster,5454 Cleveland Rd,Wooster,Completed,40.865218,-81.923016
+OH,Hartzler Family Dairy Wooster,5454 Cleveland Rd,Wooster,Terminated,40.865218,-81.923016
 OH,Similac 360 Total Care 2 fl oz reclose able plastic bottle,2900 Easton Square Pl,Columbus,Ongoing,40.037655,-82.915683
 OH,Similac Neosure 2 fl oz reclose able plastic bottle,2900 Easton Square Pl,Columbus,Ongoing,40.037655,-82.915683
 OH,Similac 360 Total Care Sensitive 2 fl oz reclose able plastic bottle,2900 Easton Square Pl,Columbus,Ongoing,40.037655,-82.915683
@@ -199,11 +199,11 @@ RI,Golden Flax Seed Scala Bread,2 Quality Dr,Lincoln,Ongoing,41.929277,-71.47609
 RI,"Wildtree, Leslies Chili Blend, Organic & Gluten Free",15 Wellington Rd,Lincoln,Terminated,41.924811,-71.474112
 RI,"Wildtree, Taco Seasoning, Organic & Gluten Free",15 Wellington Rd,Lincoln,Terminated,41.924811,-71.474112
 RI,Products received from the UNFI Distribution Center Champaign,313 Iron Horse Way,Providence,Terminated,41.828779,-71.431872
-SC,Carolina Ingredients Smoked Peppered Bacon Seasoning Mfr,1595 Cedar Line Dr,Rock Hill,Ongoing,34.949177,-80.953593
-SC,Carolina Ingredients Sweet Chipotle Seasoning Mfr,1595 Cedar Line Dr,Rock Hill,Ongoing,34.949177,-80.953593
-SC,Carolina Ingredients Jalapeno Seasoning Mfr,1595 Cedar Line Dr,Rock Hill,Ongoing,34.949177,-80.953593
-SC,Carolina Ingredients Mustard & Onion Seasoning Mfr,1595 Cedar Line Dr,Rock Hill,Ongoing,34.949177,-80.953593
-SC,Carolina Ingredients Avocado Lime Seasoning Mfr,1595 Cedar Line Dr,Rock Hill,Ongoing,34.949177,-80.953593
+SC,Carolina Ingredients Smoked Peppered Bacon Seasoning Mfr,1595 Cedar Line Dr,Rock Hill,Completed,34.949177,-80.953593
+SC,Carolina Ingredients Sweet Chipotle Seasoning Mfr,1595 Cedar Line Dr,Rock Hill,Completed,34.949177,-80.953593
+SC,Carolina Ingredients Jalapeno Seasoning Mfr,1595 Cedar Line Dr,Rock Hill,Completed,34.949177,-80.953593
+SC,Carolina Ingredients Mustard & Onion Seasoning Mfr,1595 Cedar Line Dr,Rock Hill,Completed,34.949177,-80.953593
+SC,Carolina Ingredients Avocado Lime Seasoning Mfr,1595 Cedar Line Dr,Rock Hill,Completed,34.949177,-80.953593
 SD,Dakota Tom's and Market Fresh branded Chicken Salad Croissant sandwiches,280 E. Main Street,Corsica,Ongoing,43.423772,-98.40695
 SD,Savory Bacon Sunflower Kernels,One Chip Road,Clark,Terminated,44.877452,-97.738836
 SD,Dakota Style Roasted & Salted Sunflower Kernels,One Chip Road,Clark,Terminated,44.877452,-97.738836

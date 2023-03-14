@@ -1,6 +1,6 @@
 :root {
 --padding-medium: 30px;
---padding-small: 15px;
+--padding-small: 10px;
 }
 
 #state-picker {
@@ -10,40 +10,56 @@
 }
 
 .recall {
-    border: 3px solid #007cba;
+    /* border: 4px solid red; */
+    background-color: orange;
     padding: var(--padding-small);
     opacity: 80%;
     position: relative;
     margin-left: 900px;
-    margin-top: 85px;
+    margin-top: 15px;
     margin-bottom: var(--padding-medium);
     min-height:  calc(var(--padding-medium) * 3);
     color: black;
-    line-height: 1.6;
 }
 
 .recall p {
     font-size: 16px;
     color: #212F3D;
+    line-height: 1;
 }
 
 .faded {
-    border: 3px solid #7F8C8D;
-    background-color: #EFEFEF;
     opacity: 75%;
     padding: var(--padding-small);
     position: relative;
     margin-left: 900px;
-    margin-top: 85px;
+    margin-top: 15px;
     margin-bottom: var(--padding-medium);
     min-height:  calc(var(--padding-medium) * 3);
     color: black;
-    line-height: 1.2;
+    background-color: lightgray;
 }
 
 .faded p {
-    font-size: 18px;
+    font-size: 16px;
     color: #212F3D;
+    line-height: 1;
+}
+
+.ongoing {
+    /* border: 3px solid orange; */
+    background-color: #FFA59C;
+    padding: var(--padding-small);
+    position: relative;
+    margin-left: 900px;
+    margin-top: 15px;
+    margin-bottom: var(--padding-medium);
+    min-height:  calc(var(--padding-medium) * 3);
+}
+
+.ongoing p{
+    font-size: 16px;
+    line-height: 1;
 }
 
 

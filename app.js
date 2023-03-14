@@ -17,9 +17,9 @@ function addMarkers() {
     if (d.status === "Completed"){
       color = '#D68910';
     } else if (d.status === "Terminated") {
-      color = '#C0392B';
+      color = '#138D75'
     } else {
-      color = '#138D75';
+      color = '#C0392B'
     }
 
     let title = d.product_description;
@@ -76,12 +76,16 @@ function updateRecallList(recall) {
             .attr("class", function(d){
               if (d.status === "Terminated") {
                 return "faded"
+              } else if (d.status === "Ongoing") {
+                return "ongoing"
               } else {
                 return "recall"
               }
             })
               .append("h4")
                 .text((d) => d.product_description)
+              .append("h5")
+                .text((d) => d.city + ", " + d.state)
               .append("p")
                 .text(function(d) {return "Recall date: " + d.recall_initiation_date.replace(/(\d{4})(\d{2})(\d{2})/, '$1/$2/$3')})
               .append("p")
@@ -105,23 +109,15 @@ function updateRecallList(recall) {
                   })
                 .style('color', function(d){
                   if (d.status === "Completed") {
-                    return '#D68910'
-                  } if (d.status === "Ongoing") {
                     return '#C0392B'
+                  } if (d.status === "Ongoing") {
+                    return 'red'
                   } else {
                     return '#138D75'
                   }
                 })
               .append("div")
                 .attr("class", "map")
-        // update => update
-        //     .transition().duration(1000)
-        //     .style("opacity", "0")
-        //     .remove()
-    	// exit => exit
-        //     .transition().duration(500)
-        //     .style("opacity", "0")
-        //     .remove()
     );
 
 }
